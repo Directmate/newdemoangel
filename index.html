@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Angel One Authorised Person – Balotra | Mutual Fund, SIP, Stocks, IPO</title>
+<meta name="description" content="Balotra me Demat account, Mutual Fund SIP, Stocks, IPO aur Trading ke liye Angel One Authorised Person. Free guidance paiye.">
+<style>
+:root{--navy:#0b1b3b;--navy2:#14295a;--orange:#ff6b1a;--green:#12b76a;--bg:#f6f8fc;--card:#fff;--text:#1b2540;--muted:#5b6784;--r:18px}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Segoe UI',system-ui,-apple-system,Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+a{text-decoration:none;color:inherit}
+.wrap{max-width:1100px;margin:auto;padding:0 20px}
+section{padding:70px 0}
+h2{font-size:clamp(26px,4vw,36px);text-align:center;margin-bottom:10px;color:var(--navy)}
+.sub{text-align:center;color:var(--muted);max-width:600px;margin:0 auto 40px}
+.btn{display:inline-block;padding:14px 26px;border-radius:50px;font-weight:700;border:0;cursor:pointer;font-size:16px;transition:.25s}
+.btn-o{background:var(--orange);color:#fff;box-shadow:0 8px 20px rgba(255,107,26,.35)}
+.btn-o:hover{transform:translateY(-3px)}
+.btn-g{background:var(--green);color:#fff;box-shadow:0 8px 20px rgba(18,183,106,.35)}
+.btn-g:hover{transform:translateY(-3px)}
+.btn-w{background:rgba(255,255,255,.12);color:#fff;border:1px solid rgba(255,255,255,.35)}
+/* nav */
+header{position:sticky;top:0;z-index:50;background:rgba(11,27,59,.96);backdrop-filter:blur(8px)}
+nav{display:flex;align-items:center;justify-content:space-between;height:66px}
+.logo{color:#fff;font-weight:800;font-size:20px}.logo span{color:var(--orange)}
+.links{display:flex;gap:24px;align-items:center}
+.links a{color:#dbe3f5;font-size:15px}.links a:hover{color:#fff}
+.menu{display:none;background:none;border:0;color:#fff;font-size:28px;cursor:pointer}
+/* hero */
+.hero{background:linear-gradient(135deg,var(--navy),var(--navy2) 60%,#1d3a82);color:#fff;padding:80px 0 90px;position:relative;overflow:hidden}
+.hero:before,.hero:after{content:"";position:absolute;border-radius:50%;background:rgba(255,107,26,.15)}
+.hero:before{width:380px;height:380px;right:-100px;top:-120px}
+.hero:after{width:260px;height:260px;left:-80px;bottom:-110px;background:rgba(18,183,106,.13)}
+.hero .wrap{display:grid;grid-template-columns:1.2fr 1fr;gap:40px;align-items:center;position:relative;z-index:1}
+.tag{display:inline-block;background:rgba(255,255,255,.12);padding:6px 14px;border-radius:30px;font-size:14px;margin-bottom:16px}
+.hero h1{font-size:clamp(30px,5vw,50px);line-height:1.2;margin-bottom:16px}
+.hero h1 em{font-style:normal;color:var(--orange)}
+.hero p{color:#cdd8f2;font-size:18px;margin-bottom:26px}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.hcard{background:#fff;color:var(--text);border-radius:var(--r);padding:26px;box-shadow:0 20px 50px rgba(0,0,0,.3)}
+.hcard h3{color:var(--navy);margin-bottom:4px}
+.ticker{margin-top:14px;display:flex;justify-content:space-between;font-size:14px;color:var(--muted)}
+.ticker b{color:var(--green);font-size:22px}
+/* stats */
+.stats{margin-top:-45px;position:relative;z-index:2;padding:0}
+.stats .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.stat{background:var(--card);border-radius:var(--r);padding:22px;text-align:center;box-shadow:0 10px 30px rgba(11,27,59,.1)}
+.stat b{font-size:30px;color:var(--orange);display:block}
+.stat span{font-size:14px;color:var(--muted)}
+/* services */
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
+.card{background:var(--card);border-radius:var(--r);padding:28px;box-shadow:0 6px 22px rgba(11,27,59,.07);transition:.3s;border:1px solid transparent}
+.card:hover{transform:translateY(-8px);border-color:var(--orange);box-shadow:0 16px 36px rgba(11,27,59,.14)}
+.ic{width:56px;height:56px;border-radius:16px;background:linear-gradient(135deg,#fff1e8,#ffe0cc);display:grid;place-items:center;font-size:28px;margin-bottom:14px}
+.card h3{margin-bottom:6px;color:var(--navy)}
+.card p{color:var(--muted);font-size:15px;margin-bottom:12px}
+.card a{color:var(--orange);font-weight:700;font-size:15px}
+/* calculator */
+.calc{background:var(--navy);color:#fff}
+.calc h2{color:#fff}.calc .sub{color:#b9c6e6}
+.cbox{display:grid;grid-template-columns:1fr 1fr;gap:30px;background:var(--navy2);border-radius:24px;padding:32px}
+.fld{margin-bottom:22px}
+.fld label{display:flex;justify-content:space-between;font-size:15px;margin-bottom:8px;color:#cdd8f2}
+.fld label b{color:var(--orange)}
+input[type=range]{width:100%;accent-color:var(--orange)}
+.res{background:#fff;color:var(--text);border-radius:18px;padding:26px;text-align:center;display:flex;flex-direction:column;justify-content:center}
+.res small{color:var(--muted)}
+.res .big{font-size:38px;font-weight:800;color:var(--green);margin:4px 0 14px}
+.row{display:flex;justify-content:space-between;padding:8px 0;border-top:1px dashed #d5dcec;font-size:15px}
+.note{font-size:12px;color:#9fb0d8;margin-top:14px;text-align:center}
+/* steps */
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px;counter-reset:s}
+.step{background:var(--card);border-radius:var(--r);padding:26px;text-align:center;position:relative;box-shadow:0 6px 22px rgba(11,27,59,.07)}
+.step:before{counter-increment:s;content:counter(s);position:absolute;top:-16px;left:50%;transform:translateX(-50%);background:var(--orange);color:#fff;width:34px;height:34px;border-radius:50%;display:grid;place-items:center;font-weight:800}
+.step h3{margin:8px 0 4px;font-size:18px}.step p{font-size:14px;color:var(--muted)}
+/* why */
+.why{background:#fff}
+.wl{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}
+.wi{display:flex;gap:14px;padding:18px;border-radius:14px;background:var(--bg)}
+.wi i{font-style:normal;font-size:26px}.wi b{display:block;color:var(--navy)}.wi span{font-size:14px;color:var(--muted)}
+/* branches */
+.branches{background:#fff}
+.bgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px;max-width:860px;margin:auto}
+.bcard{background:linear-gradient(160deg,var(--navy),var(--navy2));color:#fff;border-radius:22px;padding:32px;position:relative;overflow:hidden;box-shadow:0 14px 36px rgba(11,27,59,.2)}
+.bcard:after{content:"";position:absolute;right:-50px;top:-50px;width:150px;height:150px;border-radius:50%;background:rgba(255,107,26,.18)}
+.bcard .bt{display:inline-block;background:var(--orange);font-size:12px;font-weight:700;padding:4px 12px;border-radius:20px;margin-bottom:12px}
+.bcard h3{font-size:24px;margin-bottom:4px;position:relative;z-index:1}
+.bcard p{color:#cdd8f2;font-size:15px;margin-bottom:6px;position:relative;z-index:1}
+.bcard .btn{margin-top:16px;position:relative;z-index:1;padding:11px 22px;font-size:15px}
+/* faq */
+.faq{max-width:760px;margin:auto}
+.q{background:var(--card);border-radius:14px;margin-bottom:12px;box-shadow:0 4px 14px rgba(11,27,59,.06);overflow:hidden}
+.q button{width:100%;text-align:left;padding:18px 22px;background:none;border:0;font-size:16px;font-weight:600;cursor:pointer;display:flex;justify-content:space-between;color:var(--navy)}
+.q button:after{content:"+";font-size:22px;color:var(--orange)}
+.q.open button:after{content:"–"}
+.q div{max-height:0;overflow:hidden;transition:.3s;padding:0 22px;color:var(--muted);font-size:15px}
+.q.open div{max-height:200px;padding-bottom:18px}
+/* contact */
+.contact{background:linear-gradient(135deg,var(--navy),var(--navy2));color:#fff}
+.contact h2{color:#fff}.contact .sub{color:#b9c6e6}
+.cwrap{display:grid;grid-template-columns:1fr 1.2fr;gap:34px;align-items:start}
+.info p{margin-bottom:14px;color:#dbe3f5}
+.form{background:#fff;color:var(--text);padding:30px;border-radius:22px;box-shadow:0 20px 50px rgba(0,0,0,.3)}
+.form h3{margin-bottom:16px;color:var(--navy)}
+.form input,.form select,.form textarea{width:100%;padding:13px 15px;border:1.5px solid #d5dcec;border-radius:12px;font-size:15px;margin-bottom:14px;font-family:inherit;outline:none}
+.form input:focus,.form select:focus,.form textarea:focus{border-color:var(--orange)}
+.form .btn{width:100%}
+.err{color:#d92d20;font-size:13px;margin:-8px 0 10px;display:none}
+.ok{display:none;text-align:center;color:var(--green);font-weight:700;margin-top:12px}
+/* footer */
+footer{background:#071331;color:#9fb0d8;padding:36px 0 90px;font-size:13px}
+footer p{margin-bottom:8px}
+.fl{color:#fff;font-weight:700;font-size:16px}
+/* floating wa */
+.wa{position:fixed;right:18px;bottom:18px;z-index:60;background:#25d366;color:#fff;width:60px;height:60px;border-radius:50%;display:grid;place-items:center;font-size:30px;box-shadow:0 8px 24px rgba(37,211,102,.5);animation:pulse 2s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(37,211,102,.6)}70%{box-shadow:0 0 0 18px rgba(37,211,102,0)}100%{box-shadow:0 0 0 0 rgba(37,211,102,0)}}
+.rv{opacity:0;transform:translateY(30px);transition:.7s}
+.rv.show{opacity:1;transform:none}
+@media(max-width:820px){
+ .hero .wrap,.cbox,.cwrap{grid-template-columns:1fr}
+ .stats .wrap{grid-template-columns:repeat(2,1fr)}
+ .menu{display:block}
+ .links{display:none;position:absolute;top:66px;left:0;right:0;background:var(--navy);flex-direction:column;padding:20px;gap:16px}
+ .links.open{display:flex}
+ section{padding:54px 0}
+}
+</style>
+</head>
+<body>
+
+<header>
+ <div class="wrap">
+  <nav>
+   <a href="#home" class="logo">📈 <span data-bind="brand">Bhati-Investment</span></a>
+   <button class="menu" id="menu" aria-label="Menu">☰</button>
+   <div class="links" id="links">
+    <a href="#services">Services</a>
+    <a href="#branches">Branches</a>
+    <a href="#calc">SIP Calculator</a>
+    <a href="#how">Kaise Shuru Kare</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact" class="btn btn-o" style="padding:9px 20px">Free Account Kholein</a>
+   </div>
+  </nav>
+ </div>
+</header>
+
+<section class="hero" id="home" style="padding-bottom:90px">
+ <div class="wrap">
+  <div>
+   <span class="tag">🏆 Angel One Authorised Person • Balotra &amp; Ahmedabad</span>
+   <h1>Apne paise ko <em>growth</em> ka sahi raasta dikhayein</h1>
+   <p>Demat account, Mutual Fund SIP, Stocks aur IPO — sab ek jagah. Balotra me local guidance, seedhe WhatsApp par support.</p>
+   <div class="cta">
+    <a href="#contact" class="btn btn-o">Free Demat Account Kholein →</a>
+    <a href="#" class="btn btn-w" data-wa="Namaste, mujhe investment ke baare me jaankari chahiye.">💬 WhatsApp Par Baat Karein</a>
+   </div>
+  </div>
+  <div class="hcard">
+   <h3>🎯 Sirf ₹500 se SIP shuru</h3>
+   <p style="color:var(--muted);font-size:14px">Chhoti bachat, bada future. Aaj hi start karein.</p>
+   <div class="ticker"><div>Demat Opening<br><b>₹0*</b></div><div>Account Setup<br><b>~15 min</b></div><div>Support<br><b>WhatsApp</b></div></div>
+   <p style="font-size:11px;color:#8a95b0;margin-top:10px">*Charges Angel One ki current policy ke anusar lagu honge.</p>
+  </div>
+ </div>
+</section>
+
+<section class="stats">
+ <div class="wrap rv">
+  <div class="stat"><b data-count="2000" data-suf="+">0</b><span>Khush Clients</span></div>
+  <div class="stat"><b data-count="5" data-suf="+ Yrs">0</b><span>Market Experience</span></div>
+  <div class="stat"><b data-count="100" data-suf="%">0</b><span>Digital Process</span></div>
+  <div class="stat"><b data-count="24" data-suf="x7">0</b><span>WhatsApp Support</span></div>
+ </div>
+</section>
+
+<section id="services">
+ <div class="wrap">
+  <h2 class="rv">Hamari Services</h2>
+  <p class="sub rv">Beginner ho ya experienced investor — aapke goal ke hisaab se sahi solution.</p>
+  <div class="grid">
+   <div class="card rv"><div class="ic">🏦</div><h3>Demat & Trading Account</h3><p>Paperless account opening, aadhaar se e-sign, jaldi activation.</p><a href="#" data-wa="Mujhe Demat & Trading account kholna hai.">Account kholein →</a></div>
+   <div class="card rv"><div class="ic">🔄</div><h3>Mutual Fund SIP</h3><p>₹500 se monthly SIP. Goal-based planning: ghar, shaadi, retirement.</p><a href="#" data-wa="Mujhe Mutual Fund SIP ke baare me jaankari chahiye.">SIP shuru karein →</a></div>
+   <div class="card rv"><div class="ic">📊</div><h3>Stock Investment</h3><p>Delivery & intraday trading, research tools aur guidance.</p><a href="#" data-wa="Mujhe Stock Investment ke baare me guidance chahiye.">Jaankari lein →</a></div>
+   <div class="card rv"><div class="ic">🚀</div><h3>IPO Application</h3><p>Naye IPO ki update aur UPI se aasan application me madad.</p><a href="#" data-wa="Mujhe IPO updates aur application me help chahiye.">IPO alerts paayein →</a></div>
+   <div class="card rv"><div class="ic">🧾</div><h3>Futures & Options</h3><p>Risk samajh ke F&O trading, margin aur strategy ki basic samajh.</p><a href="#" data-wa="Mujhe F&O trading ke baare me jaankari chahiye.">Poochhein →</a></div>
+   <div class="card rv"><div class="ic">📢</div><h3>Daily Market Updates</h3><p>WhatsApp Channel par IPO, OFS aur market updates — free me.</p><a href="#" data-wa="Mujhe daily market updates wale WhatsApp Channel ka link bhejein.">Channel join karein →</a></div>
+  </div>
+ </div>
+</section>
+
+<section class="calc" id="calc">
+ <div class="wrap">
+  <h2 class="rv">SIP Calculator</h2>
+  <p class="sub rv">Dekhiye chhoti monthly bachat time ke saath kitni badh sakti hai.</p>
+  <div class="cbox rv">
+   <div>
+    <div class="fld"><label>Monthly Investment <b id="vA">₹5,000</b></label><input type="range" id="rA" min="500" max="100000" step="500" value="5000"></div>
+    <div class="fld"><label>Expected Return (p.a.) <b id="vR">12%</b></label><input type="range" id="rR" min="6" max="20" step="0.5" value="12"></div>
+    <div class="fld"><label>Time Period <b id="vY">10 saal</b></label><input type="range" id="rY" min="1" max="30" step="1" value="10"></div>
+    <a href="#contact" class="btn btn-o">Meri SIP Plan Karein →</a>
+   </div>
+   <div class="res">
+    <small>Estimated Total Value</small>
+    <div class="big" id="oT">₹0</div>
+    <div class="row"><span>Invested Amount</span><b id="oI">₹0</b></div>
+    <div class="row"><span>Estimated Returns</span><b id="oG" style="color:var(--green)">₹0</b></div>
+   </div>
+  </div>
+  <p class="note">Yeh sirf illustration hai. Actual returns market par depend karte hain aur guaranteed nahi hain.</p>
+ </div>
+</section>
+
+<section id="how">
+ <div class="wrap">
+  <h2 class="rv">Shuru Karna Bahut Aasan Hai</h2>
+  <p class="sub rv">Ghar baithe 4 simple steps me.</p>
+  <div class="steps">
+   <div class="step rv"><h3>Form Bharein</h3><p>Neeche form me naam aur mobile number bhejein.</p></div>
+   <div class="step rv"><h3>WhatsApp Par Baat</h3><p>Main aapko seedha WhatsApp par contact karunga.</p></div>
+   <div class="step rv"><h3>Documents</h3><p>Aadhaar, PAN aur bank details se online KYC.</p></div>
+   <div class="step rv"><h3>Invest Karein</h3><p>Account active hote hi SIP, stocks ya IPO shuru.</p></div>
+  </div>
+ </div>
+</section>
+
+<section class="why">
+ <div class="wrap">
+  <h2 class="rv">Mujhe Hi Kyun Chunein?</h2>
+  <p class="sub rv">Sirf account nahi, ek bharosemand sathi.</p>
+  <div class="wl">
+   <div class="wi rv"><i>🤝</i><div><b>Personal Guidance</b><span>Balotra me local, seedhi baat — koi call center nahi.</span></div></div>
+   <div class="wi rv"><i>🛡️</i><div><b>Angel One Platform</b><span>SEBI registered broker ka secure aur trusted platform.</span></div></div>
+   <div class="wi rv"><i>⚡</i><div><b>Fast Support</b><span>Aapke sawal ka jawab WhatsApp par jaldi.</span></div></div>
+   <div class="wi rv"><i>🎓</i><div><b>Beginner Friendly</b><span>Pehli baar invest kar rahe hain? Main step-by-step samjhaunga.</span></div></div>
+  </div>
+ </div>
+</section>
+
+<section class="branches" id="branches">
+ <div class="wrap">
+  <h2 class="rv">Hamari Branches</h2>
+  <p class="sub rv">Rajasthan aur Gujarat — dono jagah aapki seva me.</p>
+  <div class="bgrid">
+   <div class="bcard rv">
+    <span class="bt">📍 BALOTRA</span>
+    <h3>Bhati Investment</h3>
+    <p>Balotra, Rajasthan</p>
+    <p>Demat • SIP • Stocks • IPO</p>
+    <a href="#" class="btn btn-g" data-wa="Namaste, mujhe Bhati Investment (Balotra branch) se baat karni hai.">💬 Is Branch Se Baat Karein</a>
+   </div>
+   <div class="bcard rv">
+    <span class="bt">📍 AHMEDABAD</span>
+    <h3>Manglik Investment</h3>
+    <p>Ahmedabad, Gujarat</p>
+    <p>Demat • SIP • Stocks • IPO</p>
+    <a href="#" class="btn btn-g" data-wa="Namaste, mujhe Manglik Investment (Ahmedabad branch) se baat karni hai.">💬 Is Branch Se Baat Karein</a>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="faq">
+ <div class="wrap">
+  <h2 class="rv">Aksar Poochhe Jaane Wale Sawal</h2>
+  <p class="sub rv">&nbsp;</p>
+  <div class="faq">
+   <div class="q"><button>Demat account kholne me kitna time lagta hai?</button><div>Documents ready ho to online process aam taur par kuch hi der me complete ho jata hai. Activation me thoda samay lag sakta hai.</div></div>
+   <div class="q"><button>SIP kam se kam kitne se shuru hoti hai?</button><div>Kai Mutual Funds me SIP ₹100–₹500 se bhi shuru ho sakti hai. Fund ke hisaab se alag ho sakta hai.</div></div>
+   <div class="q"><button>Kya Mutual Fund me paisa surakshit hai?</button><div>Mutual Fund market risk ke adheen hote hain. Returns guaranteed nahi hote, isliye goal aur risk ke hisaab se fund chunna zaroori hai.</div></div>
+   <div class="q"><button>IPO me apply kaise karte hain?</button><div>Demat account aur UPI ID se aap IPO ke liye apply kar sakte hain. Main application me aapki madad karunga.</div></div>
+   <div class="q"><button>Kya aap guaranteed returns dete hain?</button><div>Nahi. Koi bhi genuine advisor ya broker guaranteed returns ka vaada nahi kar sakta. Main sirf sahi jaankari aur platform support deta hun.</div></div>
+  </div>
+ </div>
+</section>
+
+<section class="contact" id="contact">
+ <div class="wrap">
+  <h2 class="rv">Free Consultation Paayein</h2>
+  <p class="sub rv">Form bharein — details seedhe mere WhatsApp par aa jayengi.</p>
+  <div class="cwrap">
+   <div class="info rv">
+    <p>📍 <b>Bhati Investment</b> – Balotra, Rajasthan</p>
+    <p>📍 <b>Manglik Investment</b> – Ahmedabad, Gujarat</p>
+    <p>📞 <span data-bind="phone">+91 7742411438</span></p>
+    <p>🕘 Mon–Sat: 10:00 AM – 7:00 PM</p>
+    <p style="margin-top:20px"><a href="#" class="btn btn-g" data-wa="Namaste, mujhe aapse baat karni hai.">💬 Seedha WhatsApp Karein</a></p>
+   </div>
+   <form class="form rv" id="leadForm" novalidate>
+    <h3>📝 Apni Details Bharein</h3>
+    <input type="text" id="fName" placeholder="Aapka Naam *">
+    <div class="err" id="eName">Kripya naam likhein.</div>
+    <input type="tel" id="fPhone" placeholder="Mobile Number (10 digit) *" maxlength="10">
+    <div class="err" id="ePhone">Sahi 10 digit mobile number daalein.</div>
+    <select id="fService">
+     <option value="Demat Account">Demat / Trading Account</option>
+     <option value="Mutual Fund SIP">Mutual Fund SIP</option>
+     <option value="Stock Investment">Stock Investment</option>
+     <option value="IPO">IPO</option>
+     <option value="F&O Trading">Futures & Options</option>
+     <option value="Anya">Kuch aur</option>
+    </select>
+    <select id="fBranch">
+     <option value="Bhati Investment (Balotra)">Branch: Bhati Investment – Balotra</option>
+     <option value="Manglik Investment (Ahmedabad)">Branch: Manglik Investment – Ahmedabad</option>
+    </select>
+    <input type="text" id="fCity" placeholder="Shehar (e.g. Balotra)" value="Balotra">
+    <textarea id="fMsg" rows="3" placeholder="Aapka sawal (optional)"></textarea>
+    <button type="submit" class="btn btn-g">WhatsApp Par Bhejein ➤</button>
+    <div class="ok" id="ok">✅ WhatsApp khul raha hai — wahan "Send" dabayein.</div>
+   </form>
+  </div>
+ </div>
+</section>
+
+<footer>
+ <div class="wrap">
+  <p class="fl">📈 <span data-bind="brand">Your Name</span> — Authorised Person of Angel One Limited</p>
+  <p>Branches: Bhati Investment (Balotra, Rajasthan) | Manglik Investment (Ahmedabad, Gujarat)</p>
+  <p>AP Reg. No.: <span data-bind="apReg">AP01061201120381</span> | Angel One Limited SEBI Reg. No.: INZ000161534 (verify on SEBI/Angel One website)</p>
+  <p>Disclaimer: Securities investment market risks ke adheen hai, scheme se related sabhi documents dhyan se padhein. Past performance future returns ki guarantee nahi hai. Is website par di gayi jaankari sirf educational hai, investment advice nahi.</p>
+  <p>© <span id="yr"></span> All rights reserved.</p>
+ </div>
+</footer>
+
+<a href="#" class="wa" data-wa="Namaste, mujhe investment ke baare me jaankari chahiye." aria-label="WhatsApp">💬</a>
+
+<script>
+/* ====== YAHAN APNI DETAILS BHARIYE ====== */
+const CONFIG = {
+  brand: "Your Name",              // apna naam / brand
+  waNumber: "917742411438",        // 91 + 10 digit number, bina + ya space ke
+  phone: "+91 7742411438",
+  address: "Balotra, Rajasthan",
+  apReg: "AP01061201120381"               // apni AP registration number
+};
+/* ======================================= */
+
+document.querySelectorAll('[data-bind]').forEach(e=>e.textContent=CONFIG[e.dataset.bind]);
+document.getElementById('yr').textContent=new Date().getFullYear();
+
+const waLink = t => "https://wa.me/"+CONFIG.waNumber+"?text="+encodeURIComponent(t);
+document.querySelectorAll('[data-wa]').forEach(a=>{
+  a.href=waLink(a.dataset.wa); a.target="_blank"; a.rel="noopener";
+});
+
+/* mobile menu */
+const links=document.getElementById('links');
+document.getElementById('menu').onclick=()=>links.classList.toggle('open');
+links.querySelectorAll('a').forEach(a=>a.onclick=()=>links.classList.remove('open'));
+
+/* lead form -> WhatsApp */
+document.getElementById('leadForm').addEventListener('submit',e=>{
+  e.preventDefault();
+  const name=fName.value.trim(), phone=fPhone.value.trim();
+  const okName=name.length>1, okPhone=/^[6-9]\d{9}$/.test(phone);
+  eName.style.display=okName?'none':'block';
+  ePhone.style.display=okPhone?'none':'block';
+  if(!okName||!okPhone) return;
+  const msg=
+`*Nayi Website Enquiry* 📈
+Naam: ${name}
+Mobile: ${phone}
+Service: ${fService.value}
+Branch: ${fBranch.value}
+Shehar: ${fCity.value.trim()||'-'}
+Sawal: ${fMsg.value.trim()||'-'}`;
+  ok.style.display='block';
+  window.open(waLink(msg),'_blank');
+  e.target.reset(); fCity.value='Balotra';
+});
+
+/* SIP calculator */
+const inr=n=>"₹"+Math.round(n).toLocaleString('en-IN');
+function calc(){
+  const P=+rA.value, r=+rR.value, y=+rY.value, i=r/1200, n=y*12;
+  const fv=P*((Math.pow(1+i,n)-1)/i)*(1+i), inv=P*n;
+  vA.textContent=inr(P); vR.textContent=r+"%"; vY.textContent=y+" saal";
+  oT.textContent=inr(fv); oI.textContent=inr(inv); oG.textContent=inr(fv-inv);
+}
+[rA,rR,rY].forEach(el=>el.addEventListener('input',calc)); calc();
+
+/* FAQ */
+document.querySelectorAll('.q button').forEach(b=>b.onclick=()=>{
+  const q=b.parentElement, was=q.classList.contains('open');
+  document.querySelectorAll('.q').forEach(x=>x.classList.remove('open'));
+  if(!was) q.classList.add('open');
+});
+
+/* reveal + counters */
+function count(el){
+  const t=+el.dataset.count, s=el.dataset.suf||''; let c=0;
+  const step=Math.max(1,Math.ceil(t/50));
+  const id=setInterval(()=>{c+=step; if(c>=t){c=t;clearInterval(id)} el.textContent=c+s},30);
+}
+const io=new IntersectionObserver(es=>es.forEach(en=>{
+  if(en.isIntersecting){
+    en.target.classList.add('show');
+    en.target.querySelectorAll('[data-count]').forEach(count);
+    io.unobserve(en.target);
+  }
+}),{threshold:.15});
+document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
